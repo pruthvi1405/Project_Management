@@ -1,33 +1,38 @@
-HELP.md
+# Java build files
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse, NetBeans, VS Code, and IntelliJ IDEA project files
+/.classpath
+/.project
+/.settings/
+/.nbproject/
+/.vscode/
+/.idea/
+/*.iml
+
+# Maven / Gradle directories
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+out/
+.gradle/
+/mvnw
+/mvnw.cmd
 
-### VS Code ###
-.vscode/
+# Log files
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Configuration files
+.env
+*.properties
+*.yaml
+*.yml
+
+# Dependency directories
+lib/
